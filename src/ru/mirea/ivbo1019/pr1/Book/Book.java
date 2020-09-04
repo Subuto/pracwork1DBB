@@ -1,7 +1,6 @@
-package Book;
-import  java.lang.*;
-
-public class Book{
+package ru.mirea.ivbo1019.pr1.Book;
+import java.lang.*;
+public class Book {
     private String name;
     private int page;
 
@@ -14,10 +13,10 @@ public class Book{
         page=0;
     }
     public Book(){
-        name="Kuzya";
+        name="";
         page=0;
     }
-    public void setAge(int page){
+    public void setPage(int page){
         this.page=page;
     }
     public void setName(String name){
@@ -31,6 +30,6 @@ public class Book{
     }
 
     public void bookMark(){
-        System.out.println(name + " в ней " + page + " страниц. " + page/2+" страниц было прочитанно мною.");
+        System.out.println(name + " have " + page + " pages ");
     }
 }
